@@ -1,17 +1,17 @@
-body {
+body, html{
   margin: 30px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
-  padding: 100px 100px;
-  background-image: url("images/whirlglitch.jpg");
+  padding: 50px 50px;
+  background-image: url("images/water.jpg");
 }
 
-h3 {
+h3{
   display: inline;
 }
 
-.header1 {
+.header1{
   margin: 10px;
   padding: 1px;
   border: 2px double #F34949;
@@ -27,8 +27,23 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+
 }
 
 a:hover, a:active {
   background-color: rgba(260, 0, 0, 0.7);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
