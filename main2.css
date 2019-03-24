@@ -11,6 +11,17 @@ h3{
   display: inline;
 }
 
+
+p{
+  margin: 10px;
+  padding: 1px;
+  border 2px double;
+  background-color: rgba(201, 0, 76, 0.7);
+  font-family: "Amatic SC";
+  text-align: center;
+  color: white;
+}
+
 .header1{
   margin: 10px;
   padding: 1px;
